@@ -21,7 +21,7 @@ const CountryCard = (props) => {
         flexDirection: 'row'
       }}>
         <View style={{ flexDirection: 'column' }}>
-          <Text>{props.country.name}</Text>
+          <Text style={{ color: '#fff' }}>{props.country.name}</Text>
         </View>
       </View>
     </TouchableOpacity>

@@ -1,10 +1,12 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Home from './home'
 import CountryDetail from '../../components/CountryDetail'
+import AddCountry from '../../components/AddCountry'
 
 const MainNavigator = createStackNavigator({
   Home,
-  CountryDetail
+  CountryDetail,
+  AddCountry
 }, {
   initialRouteName: "Home",
   defaultNavigationOptions: {
